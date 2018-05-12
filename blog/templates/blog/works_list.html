@@ -1,0 +1,10 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+    {% for work in works %}
+     <div class="work">
+        <img src="{work.sample.url}}">
+        <p>{{ work.description|linebreaksbr }}</p>
+        </div>
+    {% endfor %}
+{% endblock %}
+

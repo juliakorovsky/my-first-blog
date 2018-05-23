@@ -2,8 +2,8 @@
 {% block content %}
     {% for work in works %}
      <div class="work">
-        <img src="{{ MEDIA_URL }}site_test_sample.png">
-        <p>{{ work.description|linebreaksbr }}</p>
+        <img src="{{ work.sample.url }}" alt="img">
+        <p>{{ Work.description|linebreaksbr }}</p>
         </div>
     {% endfor %}
 {% endblock %}

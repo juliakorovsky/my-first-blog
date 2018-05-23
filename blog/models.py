@@ -21,7 +21,7 @@ class Post(models.Model):
 
 class Work(models.Model):
     title = models.CharField(max_length=200, default='Untitled')
-    sample = models.ImageField(upload_to='')
+    sample = models.ImageField(upload_to='media')
     description = models.TextField()
 
     def add_work(self):

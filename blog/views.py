@@ -16,4 +16,4 @@ def post_detail(request, pk):
 
 def works_list(request):
     works = Work.objects.all()
-    return render(request, 'blog/works_list.html', {'page_title': 'Мои работы'})
+    return render(request, 'blog/works_list.html', {'works': works, 'page_title': 'Мои работы'})

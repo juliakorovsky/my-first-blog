@@ -23,12 +23,18 @@ height: auto;
 }
 
 .work {
-border-style: ridge;
+margin-top: 60px;
+background-color: #E8E8E8;
 text-align: justify;
+padding: 30px
 }
 
 h1, h2, h3, h4 {
    font-family: 'Russo One',
+}
+
+p {
+font-size: 1.3vw;
 }
 
 .date {

@@ -15,6 +15,7 @@ h1 a {#000000
 .content {
    margin-left: 40px;
    text-align: justify;
+   font-size: 1.3vw;
 }
 
 img {
@@ -31,10 +32,6 @@ padding: 30px
 
 h1, h2, h3, h4 {
    font-family: 'Russo One',
-}
-
-p {
-font-size: 1.3vw;
 }
 
 .date {

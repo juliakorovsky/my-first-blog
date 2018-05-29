@@ -2,7 +2,6 @@ h1 a {#000000
    color: #000000;
 }
 .page-header {
-   background-color: #ffffff;
    margin-top: 0;
    padding: 20px 20px 20px 40px;
 }
@@ -15,6 +14,17 @@ h1 a {#000000
 
 .content {
    margin-left: 40px;
+   text-align: justify;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+.work {
+border-style: ridge;
+text-align: justify;
 }
 
 h1, h2, h3, h4 {

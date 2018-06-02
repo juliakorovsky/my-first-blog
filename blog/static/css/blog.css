@@ -3,9 +3,10 @@
    padding: 0.7% 1.7% 1.7% 3.4%;
 }
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-   font-size: 3em;
-   text-decoration: none;
+h1 {
+font-size: 3em;
+font-weight: bold;
+text-align: left;
 }
 
 .content {
@@ -22,8 +23,8 @@ height: auto;
 }
 
 .work {
-margin-left: 15%;
-margin-right: -15%;
+margin-left: 10em;
+margin-right: 10em;
 margin-top: 12%;
 font-size: 1em;
 background-color: #E8E8E8;

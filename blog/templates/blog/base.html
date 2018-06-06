@@ -8,6 +8,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+<script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/info">Обо мне</a>
+        <a href="/blog">Блог</a>
+        <a href="/portfolio">Мои работы</a>
+    </div>
+    <div style="position: absolute; right: 10px; top: 250px;">
+     <img src="/media/navBttn.png" onclick="openNav()">
+     </div>
     <div class="page-header">
         <h1>{{ page_title }}</h1>
     </div>

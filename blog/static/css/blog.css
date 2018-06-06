@@ -50,6 +50,27 @@ padding: 30px 30px 30px 30px;
    width: 100%;
 }
 
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+right: 0;
+background-color: #ffffff;
+overflow-x: hidden;
+padding-top: 150px;
+transition: 0.3s;
+}
+
+.sidenav a{
+padding: 8px 8px 8px 32px;
+font-size: 26px;
+color: #000000;
+display: block;
+transition: 0.2s;
+}
+
 .top-menu, .top-menu:hover, .top-menu:visited {
    color: #ffffff;
    float: right;

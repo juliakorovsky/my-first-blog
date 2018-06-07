@@ -60,7 +60,7 @@ right: 0;
 background-color: #ffffff;
 overflow-x: hidden;
 padding-top: 150px;
-transition: 0.3s;
+transition: 0.2s;
 }
 
 .sidenav a{
@@ -68,7 +68,7 @@ padding: 8px 8px 8px 32px;
 font-size: 26px;
 color: #000000;
 display: block;
-transition: 0.2s;
+transition: 0.1s;
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {

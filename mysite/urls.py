@@ -25,4 +25,5 @@ urlpatterns = [
     url(r'^blog/', include('blog.urls')),
     url(r'portfolio/', views.works_list, name='works_list'),
     url(r'^$', include('blog.urls')),
+    url(r'^tinymce/', include('tinymce.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

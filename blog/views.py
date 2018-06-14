@@ -1,7 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from django.utils import timezone
-from .models import Post
-from .models import Work
+from .models import Post, Work
 
 # Create your views here.
 

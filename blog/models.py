@@ -1,11 +1,11 @@
 from django.db import models
 from django.utils import timezone
-from tinymce import HTMLField
+from tinymce import models as tinymce_models
 
 
 class Post(models.Model):
     title = models.CharField(max_length=200)
-    text = HTMLField()
+    text = tinymce_models.HTMLField()
     created_date = models.DateTimeField(
             default=timezone.now)
     published_date = models.DateTimeField(
@@ -23,7 +23,7 @@ class Post(models.Model):
 class Work(models.Model):
     title = models.CharField(max_length=200, default='Untitled')
     sample = models.ImageField(upload_to='media')
-    description = HTMLField()
+    description = tinymce_models.HTMLField()
 
     def add_work(self):
         self.save()

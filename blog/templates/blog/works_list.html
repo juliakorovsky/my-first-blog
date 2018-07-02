@@ -5,7 +5,7 @@
             <img src="{{ work.sample.url }}" alt="img">
             <br>
             <br>
-            <p>{{ work.description|linebreaksbr }}</p>
+            <p>{{ work.description|safe }}</p>
         </div>
    {% endfor %}
 {% endblock %}

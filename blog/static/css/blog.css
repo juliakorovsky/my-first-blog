@@ -28,6 +28,13 @@ max-width: 100%;
 height: auto;
 }
 
+@media only screen and (max-width: 768px) {
+.sample {
+display: none;
+}
+}
+
+
 .work {
 margin-left: auto;
 margin-right: auto;
@@ -78,7 +85,7 @@ transition: 0.3s;
    float: right;
    font-size: 26pt;
    margin-right: 20px;
-}
+} - some DjangoGirls stuff. I don't need it anymore.
 */
 
 .post {

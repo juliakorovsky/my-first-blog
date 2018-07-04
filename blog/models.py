@@ -30,4 +30,15 @@ class Work(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class MyBio(models.Model):
+    title = models.CharField(max_length=100, default='Information')
+    my_info = tinymce_models.HTMLField()
+
+    def add_bio(self):
+        self.save()
+
+    def __str__(self):
+        return self.title
 # Create your models here.

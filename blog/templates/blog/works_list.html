@@ -2,7 +2,7 @@
 {% block content %}
    {% for work in works %}
         <div class="work">
-            <img src="{{ work.sample.url }}" alt="img">
+            <img class="sample" src="{{ work.sample.url }}" alt="Образец текста">
             <br>
             <br>
             <p>{{ work.description|safe }}</p>

@@ -32,6 +32,11 @@ height: auto;
 .sample {
 display: none;
 }
+
+.content {
+hypens: auto;
+}
+
 }
 
 
